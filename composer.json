@@ -1,12 +1,11 @@
 {
     "name": "grechanyuk/favorite",
-    "description": ":description",
-    "license": "license",
+    "description": "Favorite, blacklist and other lists fo Laravel",
+    "license": "MIT",
     "authors": [
         {
-            "name": "author name",
-            "email": "author email",
-            "homepage": "author homepage"
+            "name": "Egor G.",
+            "email": "xorolllo@hotmail.com"
         }
     ],
     "homepage": "https://github.com/grechanyuk/favorite",
@@ -34,10 +33,7 @@
         "laravel": {
             "providers": [
                 "Grechanyuk\\Favorite\\FavoriteServiceProvider"
-            ],
-            "aliases": {
-                "Favorite": "Grechanyuk\\Favorite\\Facades\\Favorite"
-            }
+            ]
         }
     }
 }
